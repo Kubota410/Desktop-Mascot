@@ -23,7 +23,7 @@ namespace DesktopMascot
         private float playSpeed;	//モーションの再生位置を進める速度
         private Tokens tokens;		//Twitterアカウントの認証
 
-        //メモリを軽くするための休止処理
+        //CPU使用率を下げるための休止処理
         static async void Delay()
         {
             for (int i = 0; i < 5; i++)
